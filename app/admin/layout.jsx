@@ -1,4 +1,4 @@
-import { getIsAdmin } from "@/utils/getIsAdmin";
+import { getIsAdmin } from "@/utils/getUserSession";
 import { redirect } from "next/navigation";
 
 const AdminLayout = async ({ children }) => {
