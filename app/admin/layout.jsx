@@ -2,11 +2,11 @@ import { getIsAdmin } from "@/utils/getUserSession";
 import { redirect } from "next/navigation";
 
 const AdminLayout = async ({ children }) => {
-  const isAdmin = await getIsAdmin();
+  // const isAdmin = await getIsAdmin();
 
-  console.log(isAdmin);
+  // console.log(isAdmin);
 
-  if (!isAdmin) return redirect("/");
+  // if (!isAdmin) return redirect("/");
 
   return (
     <div>
